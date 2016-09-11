@@ -4,11 +4,20 @@
   "description": "Juego para niños, es un clon de pacman",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "gulp"
   },
   "author": "Miguel Román <miguelerm@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "phaser": "^2.6.2"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "google-closure-compiler-js": "^20160828.0.1",
+    "gulp": "^3.9.1",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-html-replace": "^1.6.1",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-uglify": "^2.0.0"
   }
 }
